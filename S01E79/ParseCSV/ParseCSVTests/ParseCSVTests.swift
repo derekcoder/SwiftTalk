@@ -14,6 +14,14 @@ class ParseCSVTests: XCTestCase {
         XCTAssertEqual(parse(line: line), ["one", "2", "", "three"])
     }
     
+    func testParseAlt() {
+        let line = "one,2,,three\nfour,five,\"hello,q\""
+        let result = line.parseAlt()
+        XCTAssertEqual(result.count, 2)
+        XCTAssertEqual(result[0], ["one", "2", "", "three"])
+        XCTAssertEqual(result[1], ["four","five","hello,q"])
+    }
+    
     func testLineWithQuotes() {
         let line = "one,\"qu,ote\",2,,three" as Substring
         XCTAssertEqual(parse(line: line), ["one","qu,ote", "2", "", "three"])
@@ -42,9 +50,9 @@ class ParseCSVTests: XCTestCase {
         let url = bundle.url(forResource: "small", withExtension: "txt")!
         let data = try! Data(contentsOf: url)
         let string = String(data: data, encoding: .isoLatin1)! + ""
-        
+
         measure {
-            _ = parse(lines: string)
+            _ = string.parseAlt()
         }
     }
 }

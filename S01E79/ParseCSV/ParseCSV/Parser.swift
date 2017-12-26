@@ -62,3 +62,59 @@ func parse(lines: String) -> [[Substring]] {
         parse(line: line)
     }
 }
+
+extension String {
+    func parseAlt() -> [[String]] {
+        var result: [[String]] = [[]]
+        var currentField = "".unicodeScalars
+        var isQuote = false
+        
+        @inline(__always) func flush() {
+            result[result.endIndex-1].append(String(currentField))
+            currentField.removeAll()
+        }
+        
+        for c in self.unicodeScalars {
+            switch (c, isQuote) {
+            case (",", false):
+                flush()
+            case ("\n", false):
+                flush()
+                result.append([])
+            case ("\"", _):
+                isQuote = !isQuote
+            default:
+                currentField.append(c)
+            }
+        }
+        flush()
+        return result
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
