@@ -42,7 +42,7 @@ extension Episode {
     static let all = Resource<[Episode]>(url: url, parseJSON: { json in
         guard let dictionaries = json as? [JSONDictionary] else { return nil }
         return dictionaries.flatMap(Episode.init)
-    })    
+    })
 }
 
 
