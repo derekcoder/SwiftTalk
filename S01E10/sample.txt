@@ -1,0 +1,8 @@
+2016/07/28 Gas
+  Expenses:Gas  50  USD
+  Assets:Checking
+
+2016/07/29 Client
+  Income:Contracting  -1000  USD
+  Liabilities:VAT  -190  USD
+  Assets:Checking
