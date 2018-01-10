@@ -1,0 +1,3 @@
+2016/07/28 Burritos
+  Expenses:Food      10  USD
+  Assets:Checking
