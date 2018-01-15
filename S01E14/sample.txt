@@ -1,0 +1,16 @@
+account Assets:Checking
+account Assets:CreditCard
+account Expenses:Internet
+account Expenses:Internet:Hosting
+
+2016/07/01 Internet Expense
+  Expenses:Internet   300  USD
+  Assets:CreditCard  -300  USD
+
+2016/07/01 Another Internet Expense
+  Expenses:Internet   100  USD
+  Assets:Checking    -100  USD
+
+2016/07/01 AWS
+  Expenses:Internet:Hosting  50  USD
+  Assets:Checking           -50  USD
