@@ -1,0 +1,10 @@
+account MyAccount
+
+16/05/31 Hello world  ; this is a comment
+  ; this is a second comment
+  Assets:Giro  100 USD; hello
+  ; test
+  Assets:CreditCard  -100 USD
+16/05/13 Another statement
+  Hello  200 USD
+  Other
