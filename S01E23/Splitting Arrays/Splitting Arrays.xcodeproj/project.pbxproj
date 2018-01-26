@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65465417201AC56A00D00F8F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65465416201AC56A00D00F8F /* main.swift */; };
+		65465424201AC59300D00F8F /* Splitting_Arrays_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65465423201AC59300D00F8F /* Splitting_Arrays_Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65465411201AC56A00D00F8F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65465413201AC56A00D00F8F /* Splitting Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Splitting Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65465416201AC56A00D00F8F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		65465421201AC59300D00F8F /* Splitting Arrays Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Splitting Arrays Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65465423201AC59300D00F8F /* Splitting_Arrays_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splitting_Arrays_Tests.swift; sourceTree = "<group>"; };
+		65465425201AC59300D00F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65465410201AC56A00D00F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6546541E201AC59300D00F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6546540A201AC56A00D00F8F = {
+			isa = PBXGroup;
+			children = (
+				65465415201AC56A00D00F8F /* Splitting Arrays */,
+				65465422201AC59300D00F8F /* Splitting Arrays Tests */,
+				65465414201AC56A00D00F8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65465414201AC56A00D00F8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65465413201AC56A00D00F8F /* Splitting Arrays */,
+				65465421201AC59300D00F8F /* Splitting Arrays Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65465415201AC56A00D00F8F /* Splitting Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				65465416201AC56A00D00F8F /* main.swift */,
+			);
+			path = "Splitting Arrays";
+			sourceTree = "<group>";
+		};
+		65465422201AC59300D00F8F /* Splitting Arrays Tests */ = {
+			isa = PBXGroup;
+			children = (
+				65465423201AC59300D00F8F /* Splitting_Arrays_Tests.swift */,
+				65465425201AC59300D00F8F /* Info.plist */,
+			);
+			path = "Splitting Arrays Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65465412201AC56A00D00F8F /* Splitting Arrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6546541A201AC56A00D00F8F /* Build configuration list for PBXNativeTarget "Splitting Arrays" */;
+			buildPhases = (
+				6546540F201AC56A00D00F8F /* Sources */,
+				65465410201AC56A00D00F8F /* Frameworks */,
+				65465411201AC56A00D00F8F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Splitting Arrays";
+			productName = "Splitting Arrays";
+			productReference = 65465413201AC56A00D00F8F /* Splitting Arrays */;
+			productType = "com.apple.product-type.tool";
+		};
+		65465420201AC59300D00F8F /* Splitting Arrays Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65465426201AC59300D00F8F /* Build configuration list for PBXNativeTarget "Splitting Arrays Tests" */;
+			buildPhases = (
+				6546541D201AC59300D00F8F /* Sources */,
+				6546541E201AC59300D00F8F /* Frameworks */,
+				6546541F201AC59300D00F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Splitting Arrays Tests";
+			productName = "Splitting Arrays Tests";
+			productReference = 65465421201AC59300D00F8F /* Splitting Arrays Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6546540B201AC56A00D00F8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Derek;
+				TargetAttributes = {
+					65465412201AC56A00D00F8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					65465420201AC59300D00F8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6546540E201AC56A00D00F8F /* Build configuration list for PBXProject "Splitting Arrays" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6546540A201AC56A00D00F8F;
+			productRefGroup = 65465414201AC56A00D00F8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65465412201AC56A00D00F8F /* Splitting Arrays */,
+				65465420201AC59300D00F8F /* Splitting Arrays Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6546541F201AC59300D00F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6546540F201AC56A00D00F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65465417201AC56A00D00F8F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6546541D201AC59300D00F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65465424201AC59300D00F8F /* Splitting_Arrays_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65465418201AC56A00D00F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65465419201AC56A00D00F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		6546541B201AC56A00D00F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		6546541C201AC56A00D00F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		65465427201AC59300D00F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Splitting Arrays Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekcoder.Splitting-Arrays-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		65465428201AC59300D00F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Splitting Arrays Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekcoder.Splitting-Arrays-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6546540E201AC56A00D00F8F /* Build configuration list for PBXProject "Splitting Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65465418201AC56A00D00F8F /* Debug */,
+				65465419201AC56A00D00F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6546541A201AC56A00D00F8F /* Build configuration list for PBXNativeTarget "Splitting Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6546541B201AC56A00D00F8F /* Debug */,
+				6546541C201AC56A00D00F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65465426201AC59300D00F8F /* Build configuration list for PBXNativeTarget "Splitting Arrays Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65465427201AC59300D00F8F /* Debug */,
+				65465428201AC59300D00F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6546540B201AC56A00D00F8F /* Project object */;
+}
