@@ -55,35 +55,37 @@ class ViewController: UIViewController {
         countryPicker.delegate = self.countriesDataSource
         
        let priceSignal = priceSlider.rx.value
+            .asDriver()
             .map { floor(Double($0)) }
         
         priceSignal
             .map { "\($0) USD" }
-            .bind(to: priceLabel.rx.text)
+            .drive(priceLabel.rx.text)
             .disposed(by: disposeBag)
         
-        let vatSignal = countriesDataSource.selectedIndex.asObservable()
+        let countriesDataSource = self.countriesDataSource
+        let webservice = self.webservice
+        let vatSignal = countriesDataSource.selectedIndex.asDriver()
             .distinctUntilChanged()
-            .map { [unowned self] index in
-                self.countriesDataSource.countries[index].lowercased()
-            }.flatMapLatest { [unowned self] country in
-                self.webservice.load(vat(country: country)).map { Optional.some($0) }.startWith(nil)
-            }.share(replay: 1)
+            .map { index in
+                countriesDataSource.countries[index].lowercased()
+            }.flatMapLatest {  country in
+                webservice.load(vat(country: country)).map { Optional.some($0) }.startWith(nil).asDriver(onErrorJustReturn: nil)
+            }
         
         vatSignal
             .map { vat in
                 vat.map { "\($0) %" } ?? "..."
-            }.asDriver(onErrorJustReturn: "")
+            }
             .drive(vatLabel.rx.text)
             .disposed(by: disposeBag)
         
-        Observable.combineLatest(vatSignal, priceSignal) { (vat, price) -> Double? in
+        Driver.combineLatest(vatSignal, priceSignal) { (vat: Double?, price: Double) -> Double? in
             guard let vat = vat else { return nil }
             return price * (1 + vat/100)
         }.map { total in
             total.map { "\($0) USD" } ?? "..."
-        }.asDriver(onErrorJustReturn: "")
-        .drive(totalLabel.rx.text)
+        }.drive(totalLabel.rx.text)
         .disposed(by: disposeBag)
     }
 }
