@@ -1,0 +1,4 @@
+module hcapiplugin {
+    umbrella "/Users/Derek/Developer/SwiftTalk/S01E45/KituraSample/.build/checkouts/omr-agentcore-1826539389957424207/src/hcapiplugin/include"
+    export *
+}
