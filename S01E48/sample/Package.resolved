@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "libpq",
+        "repositoryURL": "https://github.com/stepanhruda/libpq-darwin.git",
+        "state": {
+          "branch": null,
+          "revision": "9e3ade79ab37f1a1990f7706dece4b9f3ebe1ebf",
+          "version": "9.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
