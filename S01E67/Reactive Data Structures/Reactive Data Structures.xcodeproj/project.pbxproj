@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6588AACB20843C4300DA1C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6588AACA20843C4300DA1C12 /* AppDelegate.swift */; };
+		6588AACD20843C4300DA1C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6588AACC20843C4300DA1C12 /* ViewController.swift */; };
+		6588AAD020843C4300DA1C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6588AACE20843C4300DA1C12 /* Main.storyboard */; };
+		6588AAD220843C4400DA1C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6588AAD120843C4400DA1C12 /* Assets.xcassets */; };
+		6588AAD520843C4400DA1C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6588AAD320843C4400DA1C12 /* LaunchScreen.storyboard */; };
+		F0814F213D1D570B18419F84 /* Pods_Reactive_Data_Structures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EACD0A8BE6E469E94A4F486 /* Pods_Reactive_Data_Structures.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EACD0A8BE6E469E94A4F486 /* Pods_Reactive_Data_Structures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reactive_Data_Structures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6588AAC720843C4300DA1C12 /* Reactive Data Structures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reactive Data Structures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6588AACA20843C4300DA1C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6588AACC20843C4300DA1C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6588AACF20843C4300DA1C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6588AAD120843C4400DA1C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6588AAD420843C4400DA1C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6588AAD620843C4400DA1C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6588AADC20843D0500DA1C12 /* Reactive Data Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reactive Data Structures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		842D06D7D2D2F6C96284D3C4 /* Pods-Reactive Data Structures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Data Structures.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive Data Structures/Pods-Reactive Data Structures.release.xcconfig"; sourceTree = "<group>"; };
+		A6645AACE301804B7887E07F /* Pods-Reactive Data Structures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Data Structures.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive Data Structures/Pods-Reactive Data Structures.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6588AAC420843C4300DA1C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0814F213D1D570B18419F84 /* Pods_Reactive_Data_Structures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005B8B16AF7F95FDE2A21E78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EACD0A8BE6E469E94A4F486 /* Pods_Reactive_Data_Structures.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6588AABE20843C4300DA1C12 = {
+			isa = PBXGroup;
+			children = (
+				6588AADC20843D0500DA1C12 /* Reactive Data Structures.playground */,
+				6588AAC920843C4300DA1C12 /* Reactive Data Structures */,
+				6588AAC820843C4300DA1C12 /* Products */,
+				8D9AD0BE36B36C1E64F90F9B /* Pods */,
+				005B8B16AF7F95FDE2A21E78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6588AAC820843C4300DA1C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6588AAC720843C4300DA1C12 /* Reactive Data Structures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6588AAC920843C4300DA1C12 /* Reactive Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				6588AACA20843C4300DA1C12 /* AppDelegate.swift */,
+				6588AACC20843C4300DA1C12 /* ViewController.swift */,
+				6588AACE20843C4300DA1C12 /* Main.storyboard */,
+				6588AAD120843C4400DA1C12 /* Assets.xcassets */,
+				6588AAD320843C4400DA1C12 /* LaunchScreen.storyboard */,
+				6588AAD620843C4400DA1C12 /* Info.plist */,
+			);
+			path = "Reactive Data Structures";
+			sourceTree = "<group>";
+		};
+		8D9AD0BE36B36C1E64F90F9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6645AACE301804B7887E07F /* Pods-Reactive Data Structures.debug.xcconfig */,
+				842D06D7D2D2F6C96284D3C4 /* Pods-Reactive Data Structures.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6588AAC620843C4300DA1C12 /* Reactive Data Structures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6588AAD920843C4400DA1C12 /* Build configuration list for PBXNativeTarget "Reactive Data Structures" */;
+			buildPhases = (
+				A513D1A284DA354CD0EE111B /* [CP] Check Pods Manifest.lock */,
+				6588AAC320843C4300DA1C12 /* Sources */,
+				6588AAC420843C4300DA1C12 /* Frameworks */,
+				6588AAC520843C4300DA1C12 /* Resources */,
+				11F31C4F6115AF9D760A9F4B /* [CP] Embed Pods Frameworks */,
+				FFE3AC2F8F1216C6D000C979 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reactive Data Structures";
+			productName = "Reactive Data Structures";
+			productReference = 6588AAC720843C4300DA1C12 /* Reactive Data Structures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6588AABF20843C4300DA1C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Derek;
+				TargetAttributes = {
+					6588AAC620843C4300DA1C12 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 6588AAC220843C4300DA1C12 /* Build configuration list for PBXProject "Reactive Data Structures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6588AABE20843C4300DA1C12;
+			productRefGroup = 6588AAC820843C4300DA1C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6588AAC620843C4300DA1C12 /* Reactive Data Structures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6588AAC520843C4300DA1C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6588AAD520843C4400DA1C12 /* LaunchScreen.storyboard in Resources */,
+				6588AAD220843C4400DA1C12 /* Assets.xcassets in Resources */,
+				6588AAD020843C4300DA1C12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F31C4F6115AF9D760A9F4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Reactive Data Structures/Pods-Reactive Data Structures-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive Data Structures/Pods-Reactive Data Structures-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A513D1A284DA354CD0EE111B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reactive Data Structures-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE3AC2F8F1216C6D000C979 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive Data Structures/Pods-Reactive Data Structures-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6588AAC320843C4300DA1C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6588AACD20843C4300DA1C12 /* ViewController.swift in Sources */,
+				6588AACB20843C4300DA1C12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6588AACE20843C4300DA1C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6588AACF20843C4300DA1C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6588AAD320843C4400DA1C12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6588AAD420843C4400DA1C12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6588AAD720843C4400DA1C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6588AAD820843C4400DA1C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6588AADA20843C4400DA1C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6645AACE301804B7887E07F /* Pods-Reactive Data Structures.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reactive Data Structures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekcoder.Reactive-Data-Structures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6588AADB20843C4400DA1C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842D06D7D2D2F6C96284D3C4 /* Pods-Reactive Data Structures.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reactive Data Structures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.derekcoder.Reactive-Data-Structures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6588AAC220843C4300DA1C12 /* Build configuration list for PBXProject "Reactive Data Structures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6588AAD720843C4400DA1C12 /* Debug */,
+				6588AAD820843C4400DA1C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6588AAD920843C4400DA1C12 /* Build configuration list for PBXNativeTarget "Reactive Data Structures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6588AADA20843C4400DA1C12 /* Debug */,
+				6588AADB20843C4400DA1C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6588AABF20843C4300DA1C12 /* Project object */;
+}
